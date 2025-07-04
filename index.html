@@ -1,11 +1,100 @@
 <!DOCTYPE html>
-<html lang="en">
+<html>
 <head>
     <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Pagina de Epicor</title>
+    <!-- <link rel="stylesheet" href="styles.css">  para enlazar déspues el archivo a CSS -->
+     <!-- <link rel="stylesheet" href="pag.2.css"> -->
 </head>
+
 <body>
-    <h1>Aqui va a hacer el trabajo proximamante</h1>
+    
+    <header>
+        <div style="text-align: center;">
+            <img 
+            src="/img/logo epicor.jpg" 
+            alt="Logo de la Empresa" 
+            width="800" height="200">
+        </div>
+    </header>
+
+    <nav>
+        <ul style="display: flex; justify-content: space-around;"> <!-- Navegación horizontal -->
+            <a href="#sucursales">Sucursales</a>
+            <a href="#contacto">Contacto</a>
+            <a href="#historia">Historia</a>
+        </ul>
+    </nav>
+
+    <main>
+        <section id="empresa">
+            <h2>¿Quienés somos?</h2>
+            <p> 
+                Epicor Software Corporation es una empresa de software empresarial con sede en Austin, Texas, fundada en 1972. Sus productos están destinados a las industrias de fabricación, distribución,<br> 
+                venta minorista y servicios.<br>
+                Epicor ofrece software de planificación de recursos empresariales, gestión de relaciones con clientes, gestión de la cadena de suministro  y gestión del capital humano a clientes comerciales,<br> 
+                tanto en modelos de implementación local como de software como servicio.
+            </p>
+            <img src="/img/epicor_img.jpg" alt="Imagen representativa de la empresa"> <!-- Imagen principal -->
+            <figure>
+                <iframe width="560" height="315" src="https://www.youtube.com/embed/lW0X3OF0cXs?si=VsRVfLSuJ0AkfEW6" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+            </figure>
+
+        </section>
+
+         <section id="historia">
+            <h2>Historia</h2>
+            <article>
+                <p>La evolución de Epicor Software Corporation: una historia de transformación y consolidación tecnológica
+
+                Desde sus inicios en la década de 1980, la historia de Epicor Software Corporation representa un ejemplo claro de evolución empresarial guiada por la innovación tecnológica y la estrategia de fusiones y adquisiciones.
+                Todo comenzó en 1984 con la fundación de <abbr title="Advanced Business Microsystems">ABM</abbr> una compañía dedicada al desarrollo de software de contabilidad para MS-DOS. Su asociación con IBM para crear la línea "The Platinum Series" sentó las bases para lo que más tarde se transformaría en un producto financiero robusto orientado a redes multiusuario.
+                En 1992, ABM se renombró como  Platinum Software Corporation, preludio de su oferta pública inicial. Durante los años siguientes, la empresa adoptó Microsoft Windows, amplió su línea de productos mediante la adquisición de compañías como *Clientele* y *FocusSoft*, y finalmente se fusionó con *DataWorks*, especializada en sistemas ERP para empresas de alta tecnología.
+                Este proceso de expansión culminó en 1999 con la creación formal de *Epicor Software Corporation*.
+                Durante la década del 2000, Epicor continuó diversificando sus soluciones tecnológicas. En 2001, vendió una de sus líneas de productos (Platinum for Windows) a Sage Group, y en 2003 lanzó Epicor for Service Enterprises, una plataforma completamente web.
+                La compañía siguió creciendo mediante adquisiciones estratégicas, incluyendo CompuNet, Scala, CRS Retail, NSB, y SPECTRUM Human Resource Systems, posicionándose como un actor integral en los sectores de hospitalidad, comercio minorista y gestión de recursos humanos.
+                A partir de 2011, la historia de Epicor se cruzó con la de *Activant*, una empresa con raíces en 1972, cuando ambas fueron adquiridas y fusionadas por *Apax Partners*. La nueva Epicor mantuvo su nombre, pero adoptó una estructura reforzada. 
+                En los años siguientes, bajo diferentes liderazgos como el de Joseph L. Cowan y Steve Murphy, Epicor mantuvo una estrategia constante de adquisiciones, incluyendo empresas como *Solarsoft*, *QuantiSense*, *ShopVisible*, y *1 EDI Source*, fortaleciendo su presencia en sectores como análisis de datos, comercio electrónico y automatización empresarial.
+                Uno de los hitos más relevantes fue la adquisición de Epicor por parte de la firma global de inversión *KKR* en 2016, lo cual marcó una etapa de consolidación financiera y de crecimiento estructurado. En 2020, KKR vendió la empresa a *Clayton, Dubilier & Rice* (CD\&R) por 4.700 millones de dólares, demostrando el valor acumulado de décadas de innovación y expansión.
+                Finalmente, en junio de 2024, Epicor reforzó su enfoque hacia la transformación digital al adquirir "KYKLO", especializada en soluciones PIM y generación de prospectos, reflejando su continuo compromiso con la evolución de la industria manufacturera y de distribución.
+                En resumen, la trayectoria de Epicor es una muestra clara de cómo una empresa puede evolucionar desde un software básico de contabilidad hasta convertirse en un líder global en soluciones empresariales integradas, gracias a su visión estratégica, capacidad de adaptación tecnológica y constante expansión mediante adquisiciones inteligentes.
+
+
+                </p>
+            </article>
+
+        </section>
+
+        <section id="sucursales">
+            <h2>Sucursales</h2>
+            <ul>
+                <li>Ciudad de México: IZA Business Centers Arcos Bosques, Paseo de Los Tamarindos 400<br>
+                    Piso 21 y 26 Sección Poniente Torre A, Bosques de las Lomas, Cuajimalpa de Morelos, 05120 CDMX, Estado</li>
+                <li>Ciudad de Monterrey: Boulevard Antonio L. Rodríguez #1882 Plaza Sur Col Sta. María,<br>
+                    Monterrey, Nuevo Leon, Mexico, 64650</li>
+            </ul>
+
+        </section>
+
+        <section id="contacto">
+            <h2>Contacto</h2>
+            <ol>
+                <li>Ciudad de México +52-55-8000-3728</li>
+                <li>Ciudad de Monterrey +52-81-1551-7100</li>
+            </ol>
+        </section>
+
+    <footer>
+        <img src="/img/epicor pie_pag.jpg" alt="Logo de la Empresa"  style="float: center;"> <!-- Logo en el pie de página -->
+        <br>
+        <p>Nuestras redes sociales:</p>
+        <nav>
+            <a href="https://www.linkedin.com/company/epicor">linkedin</a>
+            <a href="https://www.facebook.com/epicor">Facebook</a>
+            <a href="https://x.com/Epicor?s=20">X</a>
+        </nav>
+        <p style="text-align:center">Gracias por visitar la página.</p>
+    </footer>
+
 </body>
 </html>
