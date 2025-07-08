@@ -1,0 +1,27 @@
+        body {
+            scroll-behavior: smooth;
+        }
+/* header {
+background-color: #006666;
+color: white;
+padding: 20px;
+text-align: center;
+}
+
+
+nav a {
+color: white;
+margin: 0 15px;
+text-decoration: none;
+font-weight: bold;
+}
+
+nav a:hover {
+text-decoration: underline;
+} */
+
+
+.video {
+    display: flex;
+    justify-content: center;
+}
