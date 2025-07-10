@@ -9,47 +9,62 @@
 <body>
     
     <header>
-        <div style="text-align: center;">
-            <img 
-            src="/img/logo epicor.jpg" 
-            alt="Logo de la Empresa" 
-            width="800" height="200">
-        </div>
+        
+        <img class="imagen"
+        src="/img/logo epicor.jpg" 
+        alt="Logo de la Empresa" 
+        width="800" height="200">
+    
     </header>
 
     <hr>
-    <nav>
-        <ul style="display: flex; justify-content: space-around;"> <!-- Navegación horizontal -->
-            <a href="#sucursales">Sucursales</a>
-            <a href="#contacto">Contacto</a>
-            <a href="#historia">Historia</a>
-        </ul>
-    </nav> 
+    <header>
+       <nav>
+            <ul style="display: flex; justify-content: space-around;"> <!-- Navegación horizontal -->
+                <a href="#empresa">Conocenos</a>
+                <a href="#historia">Historia</a>
+                <a href="#sucursales">Sucursales</a>
+                <a href="#contacto">Contacto</a>
+            </ul>
+        </nav>  
+    </header>
+    
    
 
     <hr>
 
     <main>
-        <section id="empresa">
+        <section class="contenedor" id="empresa">
             <h2>¿Quienés somos?</h2>
-            <p> 
+            <div style="text-align: justify;">
+               <p > 
                 Epicor Software Corporation es una empresa de software empresarial con sede en Austin, Texas, fundada en 1972. Sus productos están destinados a las industrias de fabricación, distribución,<br> 
                 venta minorista y servicios.<br>
                 Epicor ofrece software de planificación de recursos empresariales, gestión de relaciones con clientes, gestión de la cadena de suministro  y gestión del capital humano a clientes comerciales,<br> 
                 tanto en modelos de implementación local como de software como servicio.
-            </p>
-            <img src="/img/epicor_img.jpg" alt="Imagen representativa de la empresa"> <!-- Imagen principal -->
-            <figure >
-                <iframe class="video" width="560" height="315" src="https://www.youtube.com/embed/lW0X3OF0cXs?si=VsRVfLSuJ0AkfEW6" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
-            </figure>
+                </p> 
+            </div>
+            
+            <img class="imagen" src="/img/epicor_img.jpg" alt="Imagen representativa de la empresa"> <!-- Imagen principal -->
+            
+            <div class="media-contenedor">
+                <img class="imagen" src="/img/epicor-software-corporation-offices.jpg" alt="Oficinas">
+                <figure >
+                    <iframe class="video" width="560" height="315" src="https://www.youtube.com/embed/lW0X3OF0cXs?si=VsRVfLSuJ0AkfEW6" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+                </figure>
+            </div>
+            
 
         </section>
 
-         <section id="historia">
+         <section class="contenedor" id="historia">
             <h2>Historia</h2>
             <article>
-                <div style="text-align: justify;">
-                    <p>La evolución de Epicor Software Corporation: una historia de transformación y consolidación tecnológica
+                <figure class="img-hist">
+                    <img src="/img/sucursal-arcos-bosques.jpg" alt="ejemplo">
+                </figure>
+                <div class="hist" style="text-align: justify;">
+                    <p>La evolución de Epicor Software Corporation: una historia de transformación y consolidación tecnológica. <br>
 
                     Desde sus inicios en la década de 1980, la historia de Epicor Software Corporation representa un ejemplo claro de evolución empresarial guiada por la innovación tecnológica y la estrategia de fusiones y adquisiciones.
                     Todo comenzó en 1984 con la fundación de <abbr title="Advanced Business Microsystems">ABM</abbr> una compañía dedicada al desarrollo de software de contabilidad para MS-DOS. Su asociación con IBM para crear la línea "The Platinum Series" sentó las bases para lo que más tarde se transformaría en un producto financiero robusto orientado a redes multiusuario.
@@ -69,24 +84,38 @@
 
         </section>
 
-        <section id="sucursales">
+        <section class="contenedor" id="sucursales">
             <h2>Sucursales</h2>
-            <ul>
-                <li>
-                    Ciudad de México: IZA Business Centers Arcos Bosques, Paseo de Los Tamarindos 400<br>
+            <div class="sucursal">
+                <div class="info">
+                    <strong>Ciudad de México:</strong><br>
+                    IZA Business Centers Arcos Bosques, Paseo de Los Tamarindos 400<br>
                     Piso 21 y 26 Sección Poniente Torre A, Bosques de las Lomas, Cuajimalpa de Morelos, 05120 CDMX, Estado
+                    <figure>
+                        <img class="imagen" src="/img/sucursal-arcos-bosques.jpg" alt="Sucursal CDMX">
+                    </figure>
+                </div>
+                <div class="mapa">
                     <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3763.571491537533!2d-99.25368652611603!3d19.38769844211588!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x85d2011a0bebcd05%3A0x2fd4c1a5e4a2d347!2sIZA%20Business%20Centers%20Arcos%20Bosques!5e0!3m2!1ses!2smx!4v1752008316327!5m2!1ses!2smx" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
-                </li>
-                <li>
-                    Ciudad de Monterrey: Boulevard Antonio L. Rodríguez #1882 Plaza Sur Col Sta. María,<br>
-                    Monterrey, Nuevo Leon, Mexico, 64650<br>
-                    <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d230145.0844915463!2d-100.6141832737977!3d25.670732995722563!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x86629629caf9f05b%3A0x69ee14a11530edc2!2sEpicor%20Software%20Mexico%2C%20SC!5e0!3m2!1ses!2smx!4v1752008529568!5m2!1ses!2smx" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
-                </li>
-            </ul>
+                </div>
+            </div>
 
+            <div class="sucursal">
+                 <div class="info">
+                    <strong>Ciudad de Monterrey:</strong><br>
+                     Boulevard Antonio L. Rodríguez #1882 Plaza Sur Col Sta. María,<br>
+                     Monterrey, Nuevo León, México, 64650
+                     <figure>
+                        <img class="imagen" src="/img/sucursal_mont.jpg" alt="Sucursal MTY">
+                     </figure>
+                </div>
+                <div class="mapa">
+                    <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d230145.0844915463!2d-100.6141832737977!3d25.670732995722563!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x86629629caf9f05b%3A0x69ee14a11530edc2!2sEpicor%20Software%20Mexico%2C%20SC!5e0!3m2!1ses!2smx!4v1752008529568!5m2!1ses!2smx" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+                </div>
+            </div>
         </section>
 
-        <section id="contacto">
+        <section class="contenedor" id="contacto">
             <h2>Contacto</h2>
             <ol>
                 <li>Ciudad de México +52-55-8000-3728</li>
@@ -96,7 +125,7 @@
 
         <hr>
 
-    <footer>
+    <footer class="foot">
         <img src="/img/epicor pie_pag.jpg" alt="Logo de la Empresa"  style="float: center;"> <!-- Logo en el pie de página -->
         <br>
         <p>Nuestras redes sociales:</p>
