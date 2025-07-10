@@ -3,7 +3,7 @@ html {
 }
 
  header {
-background-color: #006666;
+background-color: #003f4f;
 color: white;
 padding: 20px;
 text-align: center;
@@ -18,7 +18,7 @@ font-weight: bold;
 }
 
 nav a:hover {
-background-color: #007777 ;
+color: #0b7894  ;
 text-decoration: underline;
 } 
 
@@ -30,7 +30,7 @@ text-decoration: underline;
     padding-left: 20px;
     box-shadow: 0 4 px 8px;
     margin-bottom: 70px;
-    margin: 7%;
+    margin: 10%;
 }
 
 section{
@@ -41,10 +41,46 @@ body{
   color: #333;
 }
 
-.foot{
-    background-color: #d9f1f1;
-    border: 0% ;
-    border-radius: 5px;
+.foot {
+  background-color: #003f4f;
+  color: white;
+  padding: 40px 20px;
+  text-align: center;
+  border-top: 4px solid #006666;
+}
+
+.footer-logo {
+  max-width: 200px;
+  height: auto;
+  margin-bottom: 20px;
+}
+
+.redes-sociales {
+  display: flex;
+  justify-content: center;
+  gap: 30px;
+  margin: 20px 0;
+}
+
+.redes-sociales a {
+  color: white;
+  text-decoration: none;
+  font-size: 18px;
+  transition: color 0.3s;
+}
+
+.redes-sociales a:hover {
+  color: #00cccc;
+}
+
+.redes-sociales i {
+  margin-right: 8px;
+  font-size: 20px;
+}
+
+.agradecimiento {
+  margin-top: 20px;
+  font-style: italic;
 }
 
 .sucursal {
