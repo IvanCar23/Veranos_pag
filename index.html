@@ -4,6 +4,8 @@
     <meta charset="UTF-8">
     <title>Pagina de Epicor</title>
     <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+
 </head>
 
 <body>
@@ -11,7 +13,7 @@
     <header>
         
         <img class="imagen"
-        src="/img/logo epicor.jpg" 
+        src="/img/nuevo_logo.jpg" 
         alt="Logo de la Empresa" 
         width="800" height="200">
     
@@ -61,7 +63,7 @@
             <h2>Historia</h2>
             <article>
                 <figure class="img-hist">
-                    <img src="/img/sucursal-arcos-bosques.jpg" alt="ejemplo">
+                    <img class="imagen" src="/img/epic_compu.jpg" alt="ejemplo">
                 </figure>
                 <div class="hist" style="text-align: justify;">
                     <p>La evolución de Epicor Software Corporation: una historia de transformación y consolidación tecnológica. <br>
@@ -126,16 +128,26 @@
         <hr>
 
     <footer class="foot">
-        <img src="/img/epicor pie_pag.jpg" alt="Logo de la Empresa"  style="float: center;"> <!-- Logo en el pie de página -->
-        <br>
-        <p>Nuestras redes sociales:</p>
-        <nav>
-            <a href="https://www.linkedin.com/company/epicor">Linkedin</a>
-            <a href="https://www.facebook.com/epicor">Facebook</a>
-            <a href="https://x.com/Epicor?s=20">X</a>
-        </nav>
-        <p style="text-align:center">Gracias por visitar la página.</p>
+        <div class="footer-contenido">
+            <img src="/img/epicor pie_pag.jpg" alt="Logo de la Empresa" class="footer-logo">
+
+            <p>Nuestras redes sociales:</p>
+            <nav class="redes-sociales">
+                <a href="https://www.linkedin.com/company/epicor" target="_blank">
+                    <i class="fab fa-linkedin"></i> Linkedin
+                </a>
+                <a href="https://www.facebook.com/epicor" target="_blank">
+                    <i class="fab fa-facebook"></i> Facebook
+                </a>
+                <a href="https://x.com/Epicor?s=20" target="_blank">
+                    <i class="fab fa-x-twitter"></i> X
+                </a>
+            </nav>
+
+            <p class="agradecimiento">Gracias por visitar la página.</p>
+         </div>
     </footer>
+
 
 </body>
 </html>
