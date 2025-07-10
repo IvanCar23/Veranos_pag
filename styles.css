@@ -1,9 +1,12 @@
 html {
     scroll-behavior: smooth;
+    background-image: url(img/luces-de-neon-degradadas-abstractas.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
 }
 
- header {
-background-color: #003f4f;
+header {
+background-color: #0b5163;
 color: white;
 padding: 20px;
 text-align: center;
@@ -37,7 +40,6 @@ section{
     padding: 40px 20px;
 }
 body{
-  background-color: #f4f9f9;
   color: #333;
 }
 
@@ -46,14 +48,17 @@ body{
   color: white;
   padding: 40px 20px;
   text-align: center;
-  border-top: 4px solid #006666;
 }
 
 .footer-logo {
-  max-width: 200px;
+  height: 400px;   /* Ajusta este valor al tamaño que quieras */
   height: auto;
   margin-bottom: 20px;
+  margin-top: -35px;
+  display: block;     /* Esto hace que puedas usar margin-left */
+  margin-left: -10px;     /* Pegado a la izquierda */
 }
+
 
 .redes-sociales {
   display: flex;
@@ -79,8 +84,9 @@ body{
 }
 
 .agradecimiento {
-  margin-top: 20px;
+  margin-top: 30px;
   font-style: italic;
+  text-align: center;
 }
 
 .sucursal {
@@ -140,9 +146,6 @@ header>img{
   float: right;
 }
 
-.img-hist{
-  float: left;
-}
 
 #historia>p{
   flex: 1;
